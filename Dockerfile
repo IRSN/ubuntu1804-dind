@@ -1,6 +1,6 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
-MAINTAINER Billy Ray Teves <billyteves@gmail.com>
+MAINTAINER Yann Richet <yann.richet@irsn.fr>
 
 # Let's start with some basic stuff.
 RUN apt-get update -qq && apt-get install -qqy \
